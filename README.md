@@ -24,8 +24,8 @@ There are many tutorials for installing on youtube, Attention if your android do
 ## Building the source
 `ndk-build`:
 ```shell
-git clone https://github.com/ZTzTopia/GTInternalAndroid
-cd GrowtopiaImGui
+git clone https://github.com/ExploitTheLoop/ImguiEspAndroid
+cd ImguiEspAndroid
 ndk-build
 ```
 
