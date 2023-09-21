@@ -12,6 +12,7 @@ Pubg android esp external with ImGUI.
 The following dependencies are required to build the library from source.
 - [NDK Android](https://developer.android.com/ndk).
 - Any text editor. We use [Notepad++](https://notepad-plus-plus.org/).
+- [Android Studio](https://developer.android.com/studio?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw34Yh7Q1SgMPKGjDCNBYza_6f3r8dLRZCNEkVVAorqvpkdNdMsM35AaAtiYEALw_wcB&gclsrc=aw.ds).
 
 For AIDE users (I'm not sure if this works 100%).
 - [AIDE CMods](https://secufiles.com/nE9J/AIDE_CMODs_3.2.200108.apk).
