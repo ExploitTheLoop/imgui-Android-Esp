@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimg"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please join our telegram @benkkstudio"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/adminUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/fb_circularborderbtn"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/raleway"
+                android:text="Admin"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:padding="4dp"
+                android:paddingStart="26dp"
+                android:src="@drawable/admin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/premiumUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/white_circularborderbtn"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/raleway"
+                android:text="Premium"
+                android:textColor="#1A1A1A"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:paddingStart="26dp"
+                android:src="@drawable/premium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/guestuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/circularborderbtn"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/raleway"
+                android:gravity="center"
+                android:text="Guest"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:paddingStart="26dp"
+                android:src="@drawable/guests" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an Premium account?"
+            android:textSize="15sp"
+            android:paddingTop="15dp"
+            android:paddingLeft="15dp"
+            android:fontFamily="@font/raleway"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textSize="15sp"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway"
+            android:paddingRight="15dp"
+            android:textColor="#ffffff"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
